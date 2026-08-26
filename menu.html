@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu — Brew &amp; Bean</title>
+<meta name="description" content="Explore the Brew & Bean menu: espresso classics, cold drinks, breakfast, light bites, and house-made desserts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand" aria-label="Brew & Bean home">
+      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M10 18h24a2 2 0 0 1 2 2c0 8-3 12-6 14-3 2-7 3-11 3s-8-1-11-3c-3-2-6-6-6-14a2 2 0 0 1 2-2h6zM34 20h4a5 5 0 0 1 0 10h-2"/>
+        <path d="M16 12c-1 2 1 3 0 5M22 12c-1 2 1 3 0 5M28 12c-1 2 1 3 0 5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </svg>
+      Brew &amp; Bean
+    </a>
+
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="is-active" aria-current="page">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-outline">Visit Us</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Page banner -->
+  <section class="hero page-banner">
+    <div class="hero-media">
+      <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1800&q=80" alt="Roasted coffee beans and a cup of espresso on a wooden table">
+    </div>
+    <div class="container">
+      <div class="page-banner-content">
+        <p class="eyebrow">Our Menu</p>
+        <h1>Coffee, Bites &amp; Sweets Made Daily</h1>
+        <p class="lede">From a quick espresso to a full breakfast, everything on this menu is prepared fresh in-house, every day.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick category navigation -->
+  <nav class="menu-quicknav" aria-label="Menu categories">
+    <div class="container">
+      <ul>
+        <li><a href="#coffee">Coffee</a></li>
+        <li><a href="#cold-drinks">Cold Drinks</a></li>
+        <li><a href="#breakfast">Breakfast &amp; Light Bites</a></li>
+        <li><a href="#desserts">Desserts</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <!-- Coffee -->
+    <section class="menu-category" id="coffee" aria-labelledby="coffee-heading">
+      <div class="menu-category-head">
+        <div>
+          <p class="eyebrow">Hot &amp; Classic</p>
+          <h2 id="coffee-heading">Coffee</h2>
+        </div>
+        <span class="menu-category-count">5 items</span>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=300&q=80" alt="Small cup of espresso with crema">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Espresso</h3>
+              <span class="menu-item-price">$3.25</span>
+            </div>
+            <p>A concentrated shot pulled from our house blend, rich and full-bodied.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=300&q=80" alt="Cappuccino with latte art rosette">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Cappuccino</h3>
+              <span class="menu-item-price">$4.50</span>
+            </div>
+            <p>Equal parts espresso, steamed milk, and velvety foam.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=300&q=80" alt="Café latte in a ceramic mug with a heart-shaped latte art">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Café Latte</h3>
+              <span class="menu-item-price">$4.75</span>
+            </div>
+            <p>Smooth espresso with extra steamed milk for a lighter, creamy cup.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&w=300&q=80" alt="Chocolate mocha topped with whipped cream">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Mocha</h3>
+              <span class="menu-item-price">$5.00</span>
+            </div>
+            <p>Espresso and steamed milk with rich house-made chocolate.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://imgs.search.brave.com/XAAQInKLoBBHLNYP0c8n1Q0czA6lWnk-PP3thmEEfUY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMi8w/NC8wNS8wNy80Ni9p/Y2VkLWNvZmZlZS03/MTEzMDQzXzY0MC5q/cGc" alt="Black Americano coffee in a glass cup">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Americano</h3>
+              <span class="menu-item-price">$3.50</span>
+            </div>
+            <p>Espresso topped with hot water for a lighter, bold black coffee.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Cold Drinks -->
+    <section class="menu-category" id="cold-drinks" aria-labelledby="cold-drinks-heading">
+      <div class="menu-category-head">
+        <div>
+          <p class="eyebrow">Chilled &amp; Refreshing</p>
+          <h2 id="cold-drinks-heading">Cold Drinks</h2>
+        </div>
+        <span class="menu-category-count">4 items</span>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=300&q=80" alt="Iced latte in a tall glass with milk being poured over ice">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Iced Latte</h3>
+              <span class="menu-item-price">$4.95</span>
+            </div>
+            <p>Espresso and cold milk served over ice, smooth and refreshing.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=300&q=80" alt="Iced caramel latte with caramel drizzle layered in a glass">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Iced Caramel Latte</h3>
+              <span class="menu-item-price">$5.25</span>
+            </div>
+            <p>Our iced latte finished with a swirl of house caramel sauce.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1517959105821-eaf2591984ca?auto=format&fit=crop&w=300&q=80" alt="Glass of cold brew coffee over ice">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Cold Brew</h3>
+              <span class="menu-item-price">$4.75</span>
+            </div>
+            <p>Steeped for 18 hours for a smooth, naturally sweet, low-acid cup.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=300&q=80" alt="Iced mocha with chocolate drizzle and whipped cream">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Iced Mocha</h3>
+              <span class="menu-item-price">$5.35</span>
+            </div>
+            <p>Chilled espresso, milk, and chocolate, topped with light cream.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Breakfast & Light Bites -->
+    <section class="menu-category" id="breakfast" aria-labelledby="breakfast-heading">
+      <div class="menu-category-head">
+        <div>
+          <p class="eyebrow">Mornings &amp; Midday</p>
+          <h2 id="breakfast-heading">Breakfast &amp; Light Bites</h2>
+        </div>
+        <span class="menu-category-count">4 items</span>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=crop&w=300&q=80" alt="Avocado toast on sourdough with chili flakes">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Avocado Toast</h3>
+              <span class="menu-item-price">$7.50</span>
+            </div>
+            <p>Toasted sourdough, smashed avocado, chili flakes, and lemon.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=300&q=80" alt="Stack of classic pancakes with syrup">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Classic Pancakes</h3>
+              <span class="menu-item-price">$8.25</span>
+            </div>
+            <p>A fluffy stack served with maple syrup and warm butter.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1550507992-eb63ffee0847?auto=format&fit=crop&w=300&q=80" alt="Egg and cheese sandwich on a toasted bun">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Egg &amp; Cheese Sandwich</h3>
+              <span class="menu-item-price">$6.75</span>
+            </div>
+            <p>Griddled egg and melted cheese on a toasted brioche bun.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=300&q=80" alt="Granola and yogurt bowl topped with fresh berries">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Granola &amp; Yogurt Bowl</h3>
+              <span class="menu-item-price">$6.50</span>
+            </div>
+            <p>House granola, creamy yogurt, and fresh seasonal berries.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Desserts -->
+    <section class="menu-category" id="desserts" aria-labelledby="desserts-heading">
+      <div class="menu-category-head">
+        <div>
+          <p class="eyebrow">Something Sweet</p>
+          <h2 id="desserts-heading">Desserts</h2>
+        </div>
+        <span class="menu-category-count">4 items</span>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=300&q=80" alt="Slice of classic baked cheesecake">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Classic Cheesecake</h3>
+              <span class="menu-item-price">$6.00</span>
+            </div>
+            <p>Baked in-house daily with a buttery biscuit base.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=300&q=80" alt="Chocolate brownie square dusted with powdered sugar">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Chocolate Brownie</h3>
+              <span class="menu-item-price">$4.25</span>
+            </div>
+            <p>Dense, fudgy, and made with dark chocolate.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=300&q=80" alt="Slice of tiramisu dusted with cocoa powder">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Tiramisu</h3>
+              <span class="menu-item-price">$6.50</span>
+            </div>
+            <p>Espresso-soaked layers with mascarpone cream and cocoa.</p>
+          </div>
+        </article>
+
+        <article class="menu-item">
+          <div class="menu-item-media">
+            <img src="https://images.unsplash.com/photo-1607958996333-41aef7caefaa?auto=format&fit=crop&w=300&q=80" alt="Fresh blueberry muffin on a wooden board">
+          </div>
+          <div class="menu-item-body">
+            <div class="menu-item-top">
+              <h3>Blueberry Muffin</h3>
+              <span class="menu-item-price">$3.95</span>
+            </div>
+            <p>Soft and moist, baked fresh each morning with real blueberries.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- CTA -->
+  <section class="cta-band reveal" aria-labelledby="menu-cta-heading">
+    <div class="cta-band-inner">
+      <p class="eyebrow">Hungry Already?</p>
+      <h2 id="menu-cta-heading">Come Taste It All In Person</h2>
+      <p>Prices and availability may vary slightly in-café. Stop by, or reach out for hours and directions.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-light">Visit Us</a>
+        <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <p class="footer-brand">Brew &amp; Bean</p>
+        <p>A warm, modern café serving handcrafted coffee and honest food daily.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="contact.html">Find Our Café</a></li>
+          <li><a href="contact.html">Opening Hours</a></li>
+          <li><a href="contact.html">Get in Touch</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Brew &amp; Bean Café. All rights reserved.</p>
+      <p>A fictional café built for demonstration purposes.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

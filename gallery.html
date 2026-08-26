@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Brew &amp; Bean</title>
+<meta name="description" content="A look inside Brew & Bean: our space, our drinks, our food, and the moments that happen here every day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand" aria-label="Brew & Bean home">
+      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M10 18h24a2 2 0 0 1 2 2c0 8-3 12-6 14-3 2-7 3-11 3s-8-1-11-3c-3-2-6-6-6-14a2 2 0 0 1 2-2h6zM34 20h4a5 5 0 0 1 0 10h-2"/>
+        <path d="M16 12c-1 2 1 3 0 5M22 12c-1 2 1 3 0 5M28 12c-1 2 1 3 0 5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </svg>
+      Brew &amp; Bean
+    </a>
+
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html" class="is-active" aria-current="page">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-outline">Visit Us</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Page banner -->
+  <section class="hero page-banner">
+    <div class="hero-media">
+      <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1800&q=80" alt="Wide view of the Brew & Bean café interior with tables and warm lighting">
+    </div>
+    <div class="container">
+      <div class="page-banner-content">
+        <p class="eyebrow">Our Gallery</p>
+        <h1>A Look Inside Brew &amp; Bean</h1>
+        <p class="lede">A glimpse of our space, our drinks, our food, and the everyday moments that make Brew &amp; Bean feel like home.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <nav class="gallery-filters" aria-label="Filter gallery by category">
+    <div class="container">
+      <ul>
+        <li><button type="button" class="filter-btn is-active" data-filter="all">All</button></li>
+        <li><button type="button" class="filter-btn" data-filter="interior">Interior</button></li>
+        <li><button type="button" class="filter-btn" data-filter="drinks">Drinks</button></li>
+        <li><button type="button" class="filter-btn" data-filter="food">Food</button></li>
+        <li><button type="button" class="filter-btn" data-filter="community">Community</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Gallery grid -->
+  <section class="section gallery-section" aria-label="Photo gallery">
+    <div class="container">
+      <div class="gallery-grid">
+
+        <figure class="gallery-item reveal" data-category="interior">
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80" alt="Cozy seating area inside Brew & Bean with warm hanging lights">
+          <figcaption class="gallery-caption">Our main seating area</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal" data-category="drinks">
+          <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=800&q=80" alt="Cappuccino with latte art on a wooden table">
+          <figcaption class="gallery-caption">Signature Cappuccino</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal" data-category="food">
+          <img src="https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=crop&w=800&q=80" alt="Avocado toast plated with chili flakes and lemon">
+          <figcaption class="gallery-caption">Avocado Toast</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal" data-category="community">
+          <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80" alt="Friends chatting and laughing over coffee at a café table">
+          <figcaption class="gallery-caption">Good company, good coffee</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal" data-category="interior">
+          <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=800&q=80" alt="Café counter with espresso machine and hanging pendant lights">
+          <figcaption class="gallery-caption">The counter, early morning</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal" data-category="drinks">
+          <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80" alt="Iced caramel latte in a tall glass with condensation">
+          <figcaption class="gallery-caption">Iced Caramel Latte</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal" data-category="food">
+          <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=800&q=80" alt="Slice of classic cheesecake on a small plate">
+          <figcaption class="gallery-caption">Classic Cheesecake</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal" data-category="interior">
+          <img src="https://images.unsplash.com/photo-1495774856032-8b90bbb32b32?auto=format&fit=crop&w=800&q=80" alt="Person reading and working on a laptop at a quiet café table">
+          <figcaption class="gallery-caption">A quiet corner to work</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal" data-category="community">
+          <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80" alt="Barista handing a drink across the counter to a customer">
+          <figcaption class="gallery-caption">Handed over with a smile</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal" data-category="food">
+          <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=800&q=80" alt="Stack of pancakes with syrup on a breakfast table">
+          <figcaption class="gallery-caption">Weekend pancakes</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal" data-category="drinks">
+          <img src="https://images.unsplash.com/photo-1517959105821-eaf2591984ca?auto=format&fit=crop&w=800&q=80" alt="Glass of cold brew coffee over ice on a wooden counter">
+          <figcaption class="gallery-caption">Cold Brew, slow-steeped</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal" data-category="community">
+          <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=800&q=80" alt="Small group gathered around a café table sharing coffee">
+          <figcaption class="gallery-caption">Regulars catching up</figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta-band reveal" aria-labelledby="gallery-cta-heading">
+    <div class="cta-band-inner">
+      <p class="eyebrow">See It For Yourself</p>
+      <h2 id="gallery-cta-heading">Pictures Only Tell Half the Story</h2>
+      <p>The best way to experience Brew &amp; Bean is in person, come say hello.</p>
+      <div class="cta-actions">
+        <a href="menu.html" class="btn btn-light">Explore the Menu</a>
+        <a href="contact.html" class="btn btn-secondary">Visit Us</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <p class="footer-brand">Brew &amp; Bean</p>
+        <p>A warm, modern café serving handcrafted coffee and honest food daily.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="contact.html">Find Our Café</a></li>
+          <li><a href="contact.html">Opening Hours</a></li>
+          <li><a href="contact.html">Get in Touch</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Brew &amp; Bean Café. All rights reserved.</p>
+      <p>A fictional café built for demonstration purposes.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
